@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d7c45d8-6708-4b39-87df-dd34960012df" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/vueAdmin_Server_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/big_event.m5ISTg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/VueAdminServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/anno/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/interceptors/LoginInterceptors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/AliOssUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/validation/StateValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/vo/ArticleCateGory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/UserMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/ArticleMapper.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\lsni\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="graalvmjdk17" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2dMjS2772SjCGu657gz54a2hNyx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP 请求.generated-requests | #2.executor": "Run",
+    "JUnit.RedisTest (1).executor": "Run",
+    "JUnit.RedisTest.executor": "Debug",
+    "JUnit.RedisTest.testGet (1).executor": "Run",
+    "JUnit.RedisTest.testGet.executor": "Run",
+    "JUnit.RedisTest.testSet (1).executor": "Run",
+    "JUnit.RedisTest.testSet.executor": "Run",
+    "JUnit.ThreadLocalTest.executor": "Run",
+    "JUnit.VueAdmin-Server中的所有.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.VueAdmin-Server [clean].executor": "Run",
+    "Maven.VueAdmin-Server [compile].executor": "Run",
+    "Maven.VueAdmin-Server [install].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-resources-plugin:3.3.1:copy-resources].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:run].executor": "Run",
+    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:site].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor": "Run",
+    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:test-run].executor": "Run",
+    "Maven.VueAdmin-Server [package].executor": "Run",
+    "Maven.VueAdminServer [clean].executor": "Run",
+    "Maven.VueAdminServer [compile].executor": "Run",
+    "Maven.VueAdminServer [install].executor": "Run",
+    "Maven.VueAdminServer [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
+    "Maven.VueAdminServer [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.VueAdminServer [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image-no-fork].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor": "Run",
+    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:run].executor": "Run",
+    "Maven.VueAdminServer [package].executor": "Run",
+    "Maven.VueAdminServer [test].executor": "Run",
+    "Maven.VueAdminServer [validate].executor": "Run",
+    "Maven.big-event [clean].executor": "Run",
+    "Maven.big-event [package].executor": "Run",
+    "Maven.vueAdmin-Server [clean].executor": "Run",
+    "Maven.vueAdmin-Server [compile].executor": "Run",
+    "Maven.vueAdmin-Server [install].executor": "Run",
+    "Maven.vueAdmin-Server [package].executor": "Run",
+    "Maven.vueAdmin-Server [test].executor": "Run",
+    "Maven.vueAdmin-Server [validate].executor": "Run",
+    "Maven.vueAdminServer [clean].executor": "Run",
+    "Maven.vueAdminServer [compile].executor": "Run",
+    "Maven.vueAdminServer [install].executor": "Run",
+    "Maven.vueAdminServer [package].executor": "Run",
+    "Maven.vueAdminServer [test].executor": "Run",
+    "Maven.vueAdminServer [validate].executor": "Run",
+    "Maven.vueadminServer [clean].executor": "Run",
+    "Maven.vueadminServer [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.VueAdminServerApplication.executor": "Run",
+    "Spring Boot.VueAdminServerNewApplication.executor": "Run",
+    "Spring Boot.vueAdminApplication.executor": "Run",
+    "Spring Boot.vueAdminServerApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lsni/IdeaProjects/vueAdminServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facet",
+    "project.structure.proportion": "0.097751714",
+    "project.structure.side.proportion": "0.15479876",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\lsni\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Demo.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lsni\IdeaProjects\vueAdminServer\src\main" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueAdminServer\src\main\resources" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueadminServer\src" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueadminServer\src\main\java\com\ItTest\pojo" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueadminServer\src\main\java\com\ItTest\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lsni\IdeaProjects\vueAdminServer\src" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueAdminServer\src\main\resources" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueAdminServer\src\main" />
+      <recent name="C:\Users\lsni\IdeaProjects\vueadminServer\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ItTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VueAdminServerApplication">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itTest.Demo" />
+      <module name="vueAdmin-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vueAdmin-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itTest" />
+      <option name="MAIN_CLASS_NAME" value="com.itTest.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testGet (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vueAdmin-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itTest" />
+      <option name="MAIN_CLASS_NAME" value="com.itTest.RedisTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vueAdmin-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itTest" />
+      <option name="MAIN_CLASS_NAME" value="com.itTest.ThreadLocalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VueAdmin-Server中的所有" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VueAdmin-Server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VueAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+      <module name="VueAdmin-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ItTest.VueAdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="VueAdmin-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ItTest.VueAdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RedisTest" />
+      <item itemvalue="JUnit.RedisTest.testGet (1)" />
+      <item itemvalue="JUnit.ThreadLocalTest" />
+      <item itemvalue="JUnit.VueAdmin-Server中的所有" />
+      <item itemvalue="Spring Boot.VueAdminServerApplication" />
+      <item itemvalue="应用程序.Demo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VueAdmin-Server中的所有" />
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="JUnit.ThreadLocalTest" />
+        <item itemvalue="应用程序.Demo" />
+        <item itemvalue="JUnit.RedisTest.testGet (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d7c45d8-6708-4b39-87df-dd34960012df" name="Changes" comment="" />
+      <created>1709824840208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709824840208</updated>
+      <workItem from="1709824841286" duration="1872000" />
+      <workItem from="1709827085644" duration="1674000" />
+      <workItem from="1709891493279" duration="2871000" />
+      <workItem from="1709894769581" duration="1716000" />
+      <workItem from="1709897078240" duration="123000" />
+      <workItem from="1709897212420" duration="780000" />
+      <workItem from="1709898005152" duration="110000" />
+      <workItem from="1709898123259" duration="9703000" />
+      <workItem from="1710292957625" duration="14076000" />
+      <workItem from="1710339316762" duration="5270000" />
+      <workItem from="1710378748836" duration="16651000" />
+      <workItem from="1710466147092" duration="25294000" />
+      <workItem from="1710556564784" duration="1247000" />
+      <workItem from="1710558804239" duration="201000" />
+      <workItem from="1710559070422" duration="22313000" />
+      <workItem from="1710640328533" duration="16751000" />
+      <workItem from="1710760425125" duration="265000" />
+      <workItem from="1711076561099" duration="4769000" />
+      <workItem from="1711082577417" duration="3949000" />
+      <workItem from="1711086581891" duration="6239000" />
+      <workItem from="1711110549310" duration="1903000" />
+      <workItem from="1711112677660" duration="2607000" />
+      <workItem from="1711115515514" duration="1424000" />
+      <workItem from="1711338161956" duration="3163000" />
+      <workItem from="1711343999544" duration="2338000" />
+      <workItem from="1711347544887" duration="1745000" />
+      <workItem from="1711349351260" duration="4431000" />
+      <workItem from="1711354169534" duration="19000" />
+      <workItem from="1711354198070" duration="7143000" />
+      <workItem from="1711421782529" duration="4348000" />
+      <workItem from="1711509107909" duration="1269000" />
+      <workItem from="1711542599177" duration="5000" />
+      <workItem from="1711547367524" duration="1432000" />
+      <workItem from="1711601980634" duration="4963000" />
+      <workItem from="1711681143331" duration="12563000" />
+      <workItem from="1711762252003" duration="5730000" />
+      <workItem from="1712147328290" duration="1041000" />
+      <workItem from="1712284630535" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class</url>
+          <line>58</line>
+          <properties class="org.springframework.beans.factory.support.FactoryBeanRegistrySupport" method="getObjectFromFactoryBean">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class</url>
+          <line>526</line>
+          <properties class="org.springframework.beans.factory.support.DefaultListableBeanFactory" method="getBeansWithAnnotation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.1.2/spring-context-6.1.2.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>420</line>
+          <properties class="org.springframework.context.support.AbstractApplicationContext" method="invokeBeanFactoryPostProcessors">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Class" memberName="reflectionData" />
+        <PinnedItemInfo parentTag="sun.rmi.transport.Target" memberName="stub" />
+        <PinnedItemInfo parentTag="org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext" memberName="classLoader" />
+        <PinnedItemInfo parentTag="org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory" memberName="resourceLoader" />
+        <PinnedItemInfo parentTag="org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer$SharedMetadataReaderFactoryBean" memberName="metadataReaderFactory" />
+        <PinnedItemInfo parentTag="org.springframework.beans.PropertyValue" memberName="name" />
+        <PinnedItemInfo parentTag="org.springframework.core.io.DefaultResourceLoader" memberName="classLoader" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="aa" />
+      </configuration>
+      <inline-watch fileUrl="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class" line="58">
+        <watch expression="beanName" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

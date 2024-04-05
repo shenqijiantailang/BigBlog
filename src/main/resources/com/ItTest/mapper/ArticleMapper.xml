@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ItTest.mapper.ArticleMapper">
+    <insert id="addArticle">
+        insert into article ( title, content, cover_img, state, category_id, create_user, create_time, update_time)
+                    VALUE (#{title},#{content},#{coverImg}, #{state}, #{categoryId},#{createUser}, #{createTime},#{updateTime})
+    </insert>
+    <update id="updateArticle">
+        update article set title=#{title},content=#{content},cover_img=#{coverImg},state=#{state},category_id=#{categoryId} where id=#{id}
+    </update>
+    <delete id="deleteArticle">
+        delete article from article where id=#{deletteId}
+    </delete>
+    <select id="getArticleList" resultType="com.ItTest.pojo.Article">
+        select * from article
+        <where>
+            <if test="categoryId!=null"> category_id =#{categoryId} </if>
+            <if test="state!=null"> and state =#{state} </if>
+            and create_user=#{id}
+        </where>
+    </select>
+    <select id="getArticleDetail" resultType="com.ItTest.pojo.Article">
+        select * from article where id=#{articleId}
+    </select>
+</mapper>

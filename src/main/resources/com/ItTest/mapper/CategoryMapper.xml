@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ItTest.mapper.CategoryMapper">
+    <insert id="addCategory">
+        insert into category (category_name, category_alias, create_user, create_time, update_time) value (#{categoryName},#{categoryAlias},#{id},now(),now())
+    </insert>
+    <update id="updateCategory">
+        update category set category_name=#{categoryName},category_alias=#{categoryAlias},update_time=now() where id=#{id}
+    </update>
+    <delete id="deleteCategory">
+        delete category from category where id=#{deleteId}
+    </delete>
+    <select id="getCategoryList" resultType="com.ItTest.pojo.Category">
+      select * from category where create_user = #{id}
+    </select>
+    <select id="getCategoryDetail" resultType="com.ItTest.pojo.Category">
+        select * from category where id=#{id}
+    </select>
+</mapper>
