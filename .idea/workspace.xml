@@ -4,58 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7c45d8-6708-4b39-87df-dd34960012df" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/vueAdmin_Server_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/big_event.m5ISTg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dfe6d079-97fd-429e-a3fc-53694b8d53b6/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/VueAdminServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/anno/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/interceptors/LoginInterceptors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/AliOssUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/utils/ThreadLocalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/validation/StateValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ItTest/vo/ArticleCateGory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/ArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ItTest/mapper/UserMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d7c45d8-6708-4b39-87df-dd34960012df" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,105 +58,105 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP 请求.generated-requests | #2.executor": "Run",
-    "JUnit.RedisTest (1).executor": "Run",
-    "JUnit.RedisTest.executor": "Debug",
-    "JUnit.RedisTest.testGet (1).executor": "Run",
-    "JUnit.RedisTest.testGet.executor": "Run",
-    "JUnit.RedisTest.testSet (1).executor": "Run",
-    "JUnit.RedisTest.testSet.executor": "Run",
-    "JUnit.ThreadLocalTest.executor": "Run",
-    "JUnit.VueAdmin-Server中的所有.executor": "Debug",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.VueAdmin-Server [clean].executor": "Run",
-    "Maven.VueAdmin-Server [compile].executor": "Run",
-    "Maven.VueAdmin-Server [install].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-resources-plugin:3.3.1:copy-resources].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:run].executor": "Run",
-    "Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:site].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor": "Run",
-    "Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:test-run].executor": "Run",
-    "Maven.VueAdmin-Server [package].executor": "Run",
-    "Maven.VueAdminServer [clean].executor": "Run",
-    "Maven.VueAdminServer [compile].executor": "Run",
-    "Maven.VueAdminServer [install].executor": "Run",
-    "Maven.VueAdminServer [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
-    "Maven.VueAdminServer [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
-    "Maven.VueAdminServer [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image-no-fork].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor": "Run",
-    "Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:run].executor": "Run",
-    "Maven.VueAdminServer [package].executor": "Run",
-    "Maven.VueAdminServer [test].executor": "Run",
-    "Maven.VueAdminServer [validate].executor": "Run",
-    "Maven.big-event [clean].executor": "Run",
-    "Maven.big-event [package].executor": "Run",
-    "Maven.vueAdmin-Server [clean].executor": "Run",
-    "Maven.vueAdmin-Server [compile].executor": "Run",
-    "Maven.vueAdmin-Server [install].executor": "Run",
-    "Maven.vueAdmin-Server [package].executor": "Run",
-    "Maven.vueAdmin-Server [test].executor": "Run",
-    "Maven.vueAdmin-Server [validate].executor": "Run",
-    "Maven.vueAdminServer [clean].executor": "Run",
-    "Maven.vueAdminServer [compile].executor": "Run",
-    "Maven.vueAdminServer [install].executor": "Run",
-    "Maven.vueAdminServer [package].executor": "Run",
-    "Maven.vueAdminServer [test].executor": "Run",
-    "Maven.vueAdminServer [validate].executor": "Run",
-    "Maven.vueadminServer [clean].executor": "Run",
-    "Maven.vueadminServer [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.VueAdminServerApplication.executor": "Run",
-    "Spring Boot.VueAdminServerNewApplication.executor": "Run",
-    "Spring Boot.vueAdminApplication.executor": "Run",
-    "Spring Boot.vueAdminServerApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lsni/IdeaProjects/vueAdminServer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facet",
-    "project.structure.proportion": "0.097751714",
-    "project.structure.side.proportion": "0.15479876",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\lsni\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Demo.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RedisTest.testGet (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.testGet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.testSet (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.testSet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ThreadLocalTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VueAdmin-Server中的所有.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-resources-plugin:3.3.1:copy-resources].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.apache.maven.plugins:maven-site-plugin:3.12.1:site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [org.springframework.boot:spring-boot-maven-plugin:3.1.3:test-run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdmin-Server [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image-no-fork].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:build-info].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-aot].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:process-test-aot].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:repackage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [org.springframework.boot:spring-boot-maven-plugin:3.1.3:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.VueAdminServer [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.big-event [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.big-event [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdmin-Server [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueAdminServer [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueadminServer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.vueadminServer [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.VueAdminServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.VueAdminServerNewApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.vueAdminApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.vueAdminServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lsni/IdeaProjects/vueAdminServer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.097751714&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15479876&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lsni\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Demo.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -377,7 +336,17 @@
       <workItem from="1711762252003" duration="5730000" />
       <workItem from="1712147328290" duration="1041000" />
       <workItem from="1712284630535" duration="603000" />
+      <workItem from="1712285248888" duration="409000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1712285254924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712285254924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
